@@ -1,6 +1,4 @@
-# 3D-Showcase
-
-```stl 
+'''stl
 solid Mesh
   facet normal 0.000000 0.098027 0.995184
     outer loop
@@ -76387,4 +76385,4 @@ solid Mesh
     endloop
   endfacet
 endsolid Mesh
-```
+'''
