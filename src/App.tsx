@@ -23,7 +23,7 @@ const modelData: ModelItem[] = [
     title: "Desk Organizer",
     description: "Desk organizer for pens, clips & more",
     category: "Interior",
-    objUrl: "/Objects/DeskOrganizer.obj",
+    objUrl: "./Objects/DeskOrganizer.obj",
     image: "https://images.pexels.com/photos/586063/pexels-photo-586063.jpeg?auto=compress&cs=tinysrgb&w=800",
     software: ["Fusion360", "BambuStudio"],
     year: "2024",
@@ -37,7 +37,7 @@ const modelData: ModelItem[] = [
     title: "Indoor Planter",
     description: "A sleek indoor planter with a built-in water reservoir for easy, low-maintenance plant care.",
     category: "Interior",
-    objUrl: "/Objects/IndoorPlanter.obj",
+    objUrl: "./Objects/IndoorPlanter.obj",
     image: "https://images.pexels.com/photos/2166711/pexels-photo-2166711.jpeg?auto=compress&cs=tinysrgb&w=800",
     software: ["Fusion360", "BambuStudio"],
     year: "2025",
@@ -51,7 +51,7 @@ const modelData: ModelItem[] = [
     title: "Spool Holder",
     description: "A compact spool holder with ball bearings for smooth rolling, perfect for desks or enclosure setups.",
     category: "3D Printing Accessories",
-    objUrl: "/Objects/SpoolHolder.obj",
+    objUrl: "./Objects/SpoolHolder.obj",
     image: "https://images.pexels.com/photos/7234258/pexels-photo-7234258.jpeg?auto=compress&cs=tinysrgb&w=800",
     software: ["Fusion360", "BambuStudio"],
     year: "2023",
@@ -65,7 +65,7 @@ const modelData: ModelItem[] = [
     title: "Water Filter",
     description: "Water tank filter that blocks large debris from entering",
     category: "Functional",
-    objUrl: "/Objects/WaterTankFilter.obj",
+    objUrl: "./Objects/WaterTankFilter.obj",
     image: "https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=800",
     software: ["Fusion360", "BambuStudio"],
     year: "2025",
@@ -79,7 +79,7 @@ const modelData: ModelItem[] = [
     title: "USW-Lite Holder",
     description: "19\" rack-mount holder for securely housing a Ubiquiti switch.",
     category: "Mounting Solutions",
-    objUrl: "/Objects/UbiquitiSwitchHolder.obj",
+    objUrl: "./Objects/UbiquitiSwitchHolder.obj",
     image: "https://images.pexels.com/photos/8828597/pexels-photo-8828597.jpeg?auto=compress&cs=tinysrgb&w=800",
     software: ["Fusion360", "BambuStudio"],
     year: "2025",
@@ -93,7 +93,7 @@ const modelData: ModelItem[] = [
     title: "UCG-Ultra Holder",
     description: "19\" rack-mount holder for securely housing a Ubiquiti router.",
     category: "Mounting Solutions",
-    objUrl: "/Objects/UCG-Ultra-Case.obj",
+    objUrl: "./Objects/UCG-Ultra-Case.obj",
     image: "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800",
     software: ["Fusion360", "BambuStudio"],
     year: "2025",
@@ -317,7 +317,7 @@ function App() {
             <div className="relative">
               <div className="relative z-10">
                 <img
-                  src="/Objects/AboutMeBackground.png"
+                  src="./Objects/AboutMeBackground.png"
                   alt="3D Artist Workspace"
                   className="rounded-xl shadow-2xl"
                 />
