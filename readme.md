@@ -30,6 +30,6 @@ A modern 3D portfolio website showcasing my work using React, Tailwind CSS, and 
 
 ```bash
 git clone https://github.com/Pot4too/3D-Showcase.git
-cd your-repo-name
+cd 3D-Showcase
 npm install
 npm run dev
